@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #626262;
+    font-family: "Inter";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+}
+
+h3 {
+    margin: 5px 0;
+}
+
+h5 {
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.card-desc {
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 200px;
+}
+
+.card-subtitle {
+    margin-top: 10px;
+}
+
+.card-container {
+    margin-top: 40px;
+    background: #383838;
+    border-radius: 20px;
+    color: white;
+    padding-top: 10px;
+    position: relative;
+    width: 350px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.card-container .rounded {
+    margin-top: 30px;
+    border-radius: 1000px;
+    border: 2px solid white;
+    padding: 7px;
+    width: 144px;
+    height: 144px;
+}
+
+button.primary {
+    background-color: #ffc83a;
+    font-weight: 500;
+    font-family: "Inter";
+    padding: 8px 20px;
+    border: none;
+}
+
+button.primary-outline {
+    background-color: transparent;
+    border: 1px solid #ffc83a;
+    color: #ffc83a;
+    padding: 8px 20px;
+}
+
+.social-media {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -40px;
+}
+
+.social-media ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.skills {
+    list-style-type: none;
+    text-align: left;
+    border-radius: 10px;
+    margin-top: -15px;
+    padding: 15px;
+}
+
+.skills ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: -15px;
+    padding: 0;
+}
+
+.skills ul li {
+    border: 1px solid white;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 10px;
+}
